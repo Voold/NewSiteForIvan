@@ -1,0 +1,695 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+}
+.main_body_cont{
+    
+}
+.ilb{
+    display: inline;
+}
+
+.firstpage{
+    height: 100vh;
+    background-image: url("assets/firstpage_background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.content_cont{
+    margin: 0 auto;
+    width: 80vw;
+}
+
+.firstpage_header{
+    height: 65px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.firstpage_header .menu_items{
+    color: white;
+    list-style: none;
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17.6px;
+}
+
+.ul_menu_items{
+    gap: 25px;
+    display: flex;
+}
+
+.button_aut{
+    margin: 0 20px 0 70px;
+    border-radius: 4px;
+    color: white;
+    width: 112px;
+    height: 34px;
+    background: none;
+    border: 1px solid rgba(92, 23, 205, 1);
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.1);
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17.6px;
+
+}
+.firstpage_body{
+    /* height: 66vh; */
+    margin-top: 100px;
+    display: flex;
+}
+
+.firstpage_body .left_part{
+    width: 40%;
+    color: white;
+    font-family: "Play", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52.8px;
+    text-align: left;
+}
+
+.firstpage_body .right_part{
+    width: 60%;
+    height: 100%;
+}
+
+.disc{
+    display: flex;
+    padding-top: 50px;
+    
+}
+
+.disc_left_part{
+    align-items: center;
+    width: 40%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 17.6px;
+    text-align: left;
+}
+.sk_text{
+    display: inline;
+}
+.small_line{
+    display: inline;
+    margin-right: 12px;
+}
+
+.disc_right_part{
+    width: 50%;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.request_but{
+    background: rgba(56, 109, 244, 1);
+    border: 1px solid rgba(56, 109, 244, 1);
+    border-radius: 4px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 19.8px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    height: 48px;
+    width: 240px;
+}
+
+.right_part svg{
+    width: 100%;
+}
+
+.firstpage_footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.arrows_block{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.arrows_block .arrow{
+    line-height: 36px;
+    text-align: center;
+    background-color: rgb(56, 109, 244);
+    color: white;
+    height: 36px;
+    width: 36px;
+    font-family: Play;
+    font-size: 26px;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+.arrows_block .disactive{
+    opacity: 0.6;
+}
+
+.secpage{
+    height: 100vh;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25.2px;
+    text-align: left;
+    color: rgba(40, 40, 40, 1);
+
+}
+
+.sectitle{
+    font-family: Play;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52.8px;
+    text-align: left;
+    width: 37%;
+}
+
+.secdisc{
+    border-left: 1px solid rgba(68, 102, 251, 0.4);
+    padding-left: 15px;
+    margin-top: 2%;
+    width: 60%;
+    margin-left: 30%;
+    height: max-content;
+    opacity: 0.7;
+    margin-bottom: 3%;
+}
+
+.pickker_block{
+    height: 434px;
+    width: 100%;
+}
+
+.listOfBlocks{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.listOfBlocks li{
+    width: 370px;
+    box-shadow: 1px 6px 16px 0px rgba(51, 51, 51, 0.08);
+    border-radius: 10px;
+    height: 100%;
+}
+
+.card_title{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 4%;
+}
+
+.card_img{
+    width: 164px;
+    margin: 0 auto;
+    margin-top: 8%;
+}
+
+.card_text{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 4%;
+}
+
+.thpage{
+    height: 553px;
+    width: 100%;
+    position: relative;
+}
+
+.thpage .content_cont{
+    height: 100%;
+}
+
+.purple_guy{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.th_title{
+    width: 60%;
+    font-family: Play;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52.8px;
+    text-align: left;
+
+}
+
+.th_disc{
+    margin: 4% 0;
+    list-style-image: url("assets/small_tick.png");
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25.2px;
+    text-align: left;
+}
+
+.GooglePlayAppStoreIcons{
+    display: flex;
+    gap:15px;
+}
+
+.fourthpage{
+    margin-top: -1%;
+    height: 95vh;
+    background-image: url("assets/fourthpage_backgroung.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.fp_pickker_block{
+
+}
+
+.fp_listOfBlocks{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.fourthtitle{
+    margin-bottom: 3%;
+    padding-top: 10%;
+    color: white;
+    font-family: Play;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52.8px;
+    text-align: left;
+}
+
+.fp_listOfBlocks > li{
+    height: 390px;
+    width: 30%;
+    border-radius: 4px;
+    border: 2px solid rgba(255, 255, 255, 1)
+}
+
+.fp_listOfBlocks > .disactive{
+    opacity: 0.5;
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.fp_listOfBlocks > .disactive > .li_body > .but{
+    background: none;
+}
+
+.li_body{   
+    margin: 4% auto;
+    width: 80%;
+}
+
+.li_body > .title{
+    margin-top: 10%;
+    color: white;
+    font-family: Play;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31.2px;
+    text-align: left;
+}
+
+.li_body > .price{
+    margin-top: 8%;
+    color: white;
+    font-family: Play;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: left;
+}
+
+.li_body > .price > sup{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;
+    text-align: left;
+
+}
+.li_body > .disc{
+    color: white;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 6%;
+}
+
+.li_body > .but{
+    color: white;
+    border: 1px solid rgba(56, 109, 244, 1);
+    background-color: rgba(56, 109, 244, 1);
+    border-radius: 4px;
+    /* width: 328px; */
+    margin-top: 4%;
+    width: 100%;
+    height: 48px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 19.8px;
+}
+
+.fifthpage{
+    height: 80vh;
+}
+
+.fifthtitle{
+    width: 35%;
+    font-family: Play;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52.8px;
+    text-align: left;
+    margin-bottom: 4%;
+}
+
+.listOfBlocks > .disc > ul > li {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.fifth_pickker_block{
+    height: 434px;
+    width: 100%;
+}
+
+.fifth_listOfBlocks{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.fifth_listOfBlocks > li{
+    width: 370px;
+    box-shadow: 1px 6px 16px 0px rgba(51, 51, 51, 0.08);
+    border-radius: 10px;
+    height: 100%;
+}
+
+.for_goals{
+    background: rgba(56, 78, 133, 1);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    width: max-content;
+    color: white;
+    padding: 0 1%;
+    border-radius: 10px;
+    margin: 2% 0 8% 9%;
+}
+
+.fifth_listOfBlocks > li > .title{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.4px;
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: -10%;
+
+}
+
+.sub_ul_params{
+    padding: 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.sub_ul_params > li{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    opacity: 0.7;
+}
+
+.fifth_listOfBlocks > li{
+    padding-top: 2%;
+}
+
+.fifth_listOfBlocks > li > .img{
+    margin: 0 auto;
+    width: max-content;
+}
+
+.fifth_listOfBlocks > li > .img >svg{
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.go_to_cat{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: right;
+    height: 26px;
+    margin-right: 1%;
+    color: rgb(68, 102, 251);
+}
+
+.go_to_wrap{
+    display: flex;
+    padding-top: 4%;
+    justify-content: end;
+}
+
+.sixthpage > .content_cont > .title{
+    font-family: Play;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52.8px;
+    text-align: left;
+    margin: 4% 0;
+
+}
+
+.body_news > ul{
+    width: 60%;
+    margin-left: 30%;
+
+}
+
+.cont_news{
+    display: flex;
+    margin-top: 3%;
+    border-top: 1px solid rgb(214, 214, 214);
+}
+
+.cont_news > .title{
+    margin-top: 2%;
+    font-family: Play;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31.2px;
+    text-align: left;
+    width: 40%;
+    margin-right: 5%;
+}
+
+.news_and_date{
+    width: 55%;
+    height: 110%;
+    display: flex;
+    flex-direction: column;
+}
+
+.news_and_date > .news_text{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+
+.date{
+    margin-top: 2%;
+    background: rgba(56, 78, 133, 1);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    width: max-content;
+    color: white;
+    padding: 0 1%;
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+
+.for_line{
+    border-right: 1px solid rgb(214, 214, 214);
+}
+
+.newmarg{
+    margin-top: -3%;
+}
+
+.mainfooter{
+    margin-top: 8%;
+    background-image: url("assets/fourthpage_backgroung.png");
+}
+
+.mainfooter > .content_cont{
+    padding-top: 8vh;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.start_part{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.mid_part{
+    width: 20%;
+}
+
+.end_part{
+    display: flex;
+    flex-direction: column;
+    width: 33%; 
+}
+
+.end_part > form{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.end_part input{
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+    text-align: left;
+    border-radius: 4px;
+}
+
+.end_part button{
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    color: white;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 19.8px;
+    border: 1px solid rgba(56, 109, 244, 1);
+    background: rgba(56, 109, 244, 1);
+    border-radius: 4px;
+    margin-top: 7px;
+    
+}
+
+.end_part > .form_title{
+    color: white;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.4px;
+    text-align: left;
+
+}
+
+.mid_part a {
+    color: rgba(249, 249, 249, 0.8);
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-align: left;
+}
+
+.mid_part ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 10px;
+}
+
+.mid_part > label{
+    color: rgba(249, 249, 249, 1);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23.4px;
+    text-align: left;
+}
+
+.start_part label{
+    color: white;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23.4px;
+    text-align: left;
+
+}
+
+.start_part a{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-align: left;
+    color: rgba(83, 172, 255, 1);
+    text-decoration: none;
+}
+
+.copyright{
+    color: white;
+    opacity: 0.2;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    text-align: left;
+}
